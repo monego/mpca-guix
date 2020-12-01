@@ -1,0 +1,11 @@
+* mpca-channel
+
+Prototype Guix channel for [[https://github.com/scsr-inpe/mpca-ann][MPCA-ANN]].
+
+* Usage
+
+In the root of this source tree:
+
+#+BEGIN_EXAMPLE
+GUIX_PACKAGE_PATH=. guix build scsr-mpca-ann
+#+END_EXAMPLE
